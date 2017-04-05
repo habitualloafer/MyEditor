@@ -1,0 +1,96 @@
+#ci-preview-bar {
+    background-color: #333;
+    height: 60px;
+    padding: 0 10px;
+}
+
+h1.preview-logo {
+    margin: 5px 0;
+}
+
+.preview-select {
+    margin-top: 17px;
+    margin-left: 40px;
+    width: 260px;
+    position: relative;
+}
+
+.preview-image {
+    display: none;
+    position: absolute;
+    top: 36px;
+    left: 234px;
+    border: 1px solid #e5e5e5;
+    padding: 6px;
+    background-color: #fefefe;
+}
+
+.preview-select.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    width: 234px;
+    text-align: left;
+} 
+
+.preview-select .btn,
+.preview-select .dropdown-menu {
+    font-size: 12px;
+    letter-spacing: .1em;
+}
+
+.preview-select .dropdown-menu {
+    width: 234px;
+}
+
+.preview-select .label {
+    float: right;
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+.preview-select .dropdown-menu>li>a {
+    padding: 10px;
+}
+
+.preview-select .dropdown-menu>li>a:hover {
+    font-weight: bold;
+}
+
+ul.preview-buttons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+}
+
+ul.preview-buttons li {
+    display: inline-block;
+    height: 60px;
+    padding: 15px 0;
+}
+
+.preview-buttons li:first-child {
+    border-right: 1px solid rgba(255,255,255,.1);
+    padding-right: 20px;
+}
+
+.preview-buttons .btn {
+    font-size: 12px;
+}
+
+.preview-buttons .btn-default {
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-group .dropdown-toggle {
+    padding: 6px 0 7px;
+}
+
+.preview-select .dropdown-menu>li>a {
+    padding: 9px 10px;
+    overflow:hidden;
+}
+
+.theme-name {
+    float: left;
+}

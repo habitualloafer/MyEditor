@@ -1,0 +1,63 @@
+.magee-multi-carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.magee-multi-carousel-inner {
+    margin: 0 -15px;
+}
+
+.magee-multi-carousel.no-padding .magee-multi-carousel-inner {
+    margin: 0;
+}
+
+.magee-multi-carousel .owl-carousel {
+    padding: 0;
+}
+
+.magee-multi-carousel .item {
+    padding: 0 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.magee-multi-carousel.no-padding .item {
+    padding: 0;
+}
+
+.magee-multi-carousel .owl-prev,
+.magee-multi-carousel .owl-next {
+    cursor: pointer;
+}
+
+/* Styling Pagination*/
+
+.magee-multi-carousel .owl-theme .owl-controls {
+    text-align: center;
+}
+
+.magee-multi-carousel .owl-controls .owl-page {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;/*IE7 life-saver */
+}
+
+.magee-multi-carousel .owl-controls .owl-page span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);/*IE7 fix*/
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #869791;
+}
+
+.magee-multi-carousel .owl-controls .owl-page.active span,
+.magee-multi-carousel .owl-controls.clickable .owl-page:hover span{
+    filter: Alpha(Opacity=100);/*IE7 fix*/
+    opacity: 1;
+}
